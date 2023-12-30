@@ -6,10 +6,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/will', function (req, res) {
-    res.send('{ "response": "Kami membuat implementasi cicd" }');
+    res.send('{ "response": "implementasi cicd" }');
 });
 app.get('/ready', function (req, res) {
-    res.send('{ "response": "Berhasill!!" }');
+    res.send('{ "response": "Berhasil Sukses!!" }');
 });
 app.listen(process.env.PORT || 3000);
 module.exports = app;
